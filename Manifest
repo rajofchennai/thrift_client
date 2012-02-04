@@ -5,11 +5,11 @@ README.rdoc
 Rakefile
 lib/thrift_client.rb
 lib/thrift_client/abstract_thrift_client.rb
-lib/thrift_client/connection.rb
-lib/thrift_client/connection/base.rb
-lib/thrift_client/connection/factory.rb
-lib/thrift_client/connection/http.rb
-lib/thrift_client/connection/socket.rb
+lib/thrift_client/thrift_connection.rb
+lib/thrift_client/thrift_connection/base.rb
+lib/thrift_client/thrift_connection/factory.rb
+lib/thrift_client/thrift_connection/http.rb
+lib/thrift_client/thrift_connection/socket.rb
 lib/thrift_client/event_machine.rb
 lib/thrift_client/simple.rb
 lib/thrift_client/thrift.rb

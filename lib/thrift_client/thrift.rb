@@ -27,7 +27,7 @@ module Thrift
       @transport.timeout
     end
   end
-  
+
   module Client
     def timeout=(timeout)
       @iprot.trans.timeout = timeout

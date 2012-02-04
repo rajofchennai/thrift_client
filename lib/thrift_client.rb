@@ -1,6 +1,6 @@
 require 'thrift'
 require 'thrift_client/thrift'
-require 'thrift_client/connection'
+require 'thrift_client/thrift_connection'
 require 'thrift_client/abstract_thrift_client'
 
 class ThriftClient < AbstractThriftClient
